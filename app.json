@@ -1,8 +1,8 @@
 {
-  "name": "MwK-Musics PyTGcalls",
+  "name": "Musics PyTGcalls",
   "description": "Telegram Bot to Play Audio And Live Streams in PyTGcalls",
-  "logo": "https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg",
-  "repository": "https://github.com/shamilhabeebnelli/MwK-Musics",
+  "logo": "https://telegra.ph/file/4dde88fb33e46159d65b9.jpg",
+  "repository": "https://github.com/nandhu663/MwK-Musics",
   "keywords": [
     "telegram",
     "bot",
@@ -46,7 +46,7 @@
     },
     "ADMINS": {
       "description": "ID of Users who can use Admin commands seperated by space)",
-      "value": "749673781",
+      "value": "387998213",
       "required": true
     },
     "STREAM_URL": {

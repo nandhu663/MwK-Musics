@@ -29,7 +29,7 @@ U=USERNAME
 CHAT=Config.CHAT
 
 
-HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\n• Iam A Bot Project by MwK MusicS\n• I Can Manage Group VC's\n\n• Hit /help to know about available commands.</b>"
+HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\n• Iam A Bot Project by MusicS\n• I Can Manage Group VC's\n\n• Hit /help to know about available commands.</b>"
 HELP = """
 🎧 <b>I Can Play Musics On VoiceChats 🤪</b>
 
@@ -70,17 +70,17 @@ async def start(client, message):
         [
         InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
                 ],[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/tvseriezzz_update'),
+                InlineKeyboardButton('💬 Chat Group', url='https://t.me/MrCVENOM_chat')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                InlineKeyboardButton('🤖 Developer', url='https://t.me/MrC_VENOM'),
+                InlineKeyboardButton('🎧 Songs', url='https://t.me/ain1bot')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('⚜ Main Group ⚜', url='https://t.me/tvseriezzz'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/4dde88fb33e46159d65b9.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
     await message.delete()
 
 
@@ -88,15 +88,15 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/tvseriezzz_update'),
+                InlineKeyboardButton('💬 Chat Group', url='https://t.me/MrCVENOM_chat')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                InlineKeyboardButton('🤖 Developer', url='https://t.me/MrC_VENOM'),
+                InlineKeyboardButton('🎧 Songs', url='https://t.me/ain1bot')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('⚜ Main Group ⚜', url='https://t.me/tvseriezzz'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg", caption=HELP, reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/4dde88fb33e46159d65b9.jpg", caption=HELP, reply_markup=reply_markup)
     await message.delete()
